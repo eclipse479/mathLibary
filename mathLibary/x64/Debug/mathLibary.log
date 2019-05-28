@@ -1,3 +1,10 @@
-﻿  Vector_2.cpp
-c:\users\s191188\source\repos\mathlibary\mathlibary\vector_2.cpp(82): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+﻿  aabb.cpp
+  baseConversion.cpp
+c:\users\s191188\source\repos\mathlibary\mathlibary\baseconversion.cpp(18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\s191188\source\repos\mathlibary\mathlibary\baseconversion.cpp(24): warning C4267: 'argument': conversion from 'size_t' to 'char', possible loss of data
+c:\users\s191188\source\repos\mathlibary\mathlibary\baseconversion.cpp(36): warning C4267: 'argument': conversion from 'size_t' to 'char', possible loss of data
+  circle.cpp
+  colliders.cpp
+  line.cpp
+  Generating Code...
   mathLibary.vcxproj -> C:\Users\s191188\source\repos\mathLibary\x64\Debug\mathLibary.lib

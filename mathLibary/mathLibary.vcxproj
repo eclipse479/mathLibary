@@ -19,6 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aabb.h" />
+    <ClInclude Include="baseConversion.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="colliders.h" />
+    <ClInclude Include="line.h" />
     <ClInclude Include="matrix_3x3.h" />
     <ClInclude Include="matrix_4x4.h" />
     <ClInclude Include="Vector_2.h" />
@@ -26,6 +31,11 @@
     <ClInclude Include="Vector_4.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="aabb.cpp" />
+    <ClCompile Include="baseConversion.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="colliders.cpp" />
+    <ClCompile Include="line.cpp" />
     <ClCompile Include="matrix_3x3.cpp" />
     <ClCompile Include="matrix_4x4.cpp" />
     <ClCompile Include="Vector_2.cpp" />
