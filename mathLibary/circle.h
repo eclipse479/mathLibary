@@ -5,8 +5,8 @@ class circle :
 	public colliders
 {
 public:
-	static const float defaultRadius;
-	circle(const Vector_2& newPosition = Vector_2(),
+	static const float defaultRadius; 
+	circle(const Vector_2& newPosition = Vector_2(), // constructor
 		   const float newRadius = defaultRadius);
 
 	const float getRadius() const;

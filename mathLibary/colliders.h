@@ -2,7 +2,7 @@
 class colliders
 {
 public:
-	enum shape : char
+	enum shape : char // enum to make sure only one shape is used at a time
 	{
 		none = 0,
 		circle,
@@ -13,9 +13,9 @@ public:
 
 	const shape getShape() const;
 protected:
-	shape m_shape = shape::none;
+	shape m_shape = shape::none;//holds the shape of the specific collider
 
-	colliders(shape a_shape);
+	colliders(shape a_shape); // constructor
 private:
 
 

@@ -31,35 +31,42 @@ public:
 	operator float* ();
 	//read only version
 	operator const float* () const;
-
+	//allows addition between Vector 2
 	Vector_2 operator + (const Vector_2& other) const;
-
+	//allows subtraction between Vector 2
 	Vector_2 operator - (const Vector_2& other) const;
-
+	//allows multiplacation between Vector 2
 	Vector_2 operator * (float scalar) const;
-
+	//allows division between Vector 2
 	Vector_2 operator / (float scalar) const;
 
+	//allows the use of the += operator between Vector 2
 	Vector_2& operator += (const Vector_2& a_rhs);
+	//allows the use of the -= operator between Vector 2
 	Vector_2& operator -= (const Vector_2& a_rhs);
+	//allows the use of the *= operator between Vector 2 and a number
 	Vector_2& operator *= (const float a_rhs);
+	//allows the use of the /= operator between Vector 2 and a number
 	Vector_2& operator /= (const float a_rhs);
 
+
 	float square_magnitude() const;
+	//finds the size of a Vector
 	float magnitude() const;
 
+	//normalises the Vector to allow comparison between other Vectors
 	void normalise();
 	Vector_2 normalised() const;
 
 	//v1.dot(v2)
-
+	//finds the dot product which gives you the amount something has been moved in a direction
 	float  dot(const Vector_2& a_rhs) const;
 	static float dot(const Vector_2& a_lhs, const Vector_2& a_rhs);
 	
-
+	//for 90 degree rotations to the right
 	Vector_2 right() const;
 
-
+	//allows checking of equivelentcy
 	bool operator == (const Vector_2& a_rhs);
 };
 	

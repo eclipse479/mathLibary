@@ -1,8 +1,8 @@
 #include "aabb.h"
 #include <cmath>
-const Vector_2 aabb::defaultExtents = 5.0f;
+const Vector_2 aabb::defaultExtents = 5.0f; // defaulst extent size
 
-
+//the constructor
 aabb::aabb(const Vector_2& newPosition/* = Vector_2()*/,
 	const Vector_2& newExtents /*= defaultExtents*/):
 	m_position(newPosition),
