@@ -18,7 +18,6 @@ public:
 
 
 private:
-	circle() = delete;
 
 	float m_radius = 0.0f;
 	Vector_2 m_position{ 0.0f,0.0f };
