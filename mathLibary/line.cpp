@@ -1,7 +1,7 @@
 #include "line.h"
 #include <limits>
 
-const Vector_2 line::defaultNormal = { 1.0f,0.0f };
+const Vector_2 line::defaultNormal = { 0.0f,1.0f };
 
 line::line(const Vector_2& newNormal/* = Vector_2()*/,
 	const float newDistance/* = 0.0f*/) :

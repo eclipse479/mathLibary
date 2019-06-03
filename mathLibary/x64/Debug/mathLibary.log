@@ -1,2 +1,6 @@
 ﻿  aabb.cpp
+  circle.cpp
+  colliders.cpp
+  line.cpp
+  Generating Code...
   mathLibary.vcxproj -> C:\Users\s191188\source\repos\mathLibary\x64\Debug\mathLibary.lib

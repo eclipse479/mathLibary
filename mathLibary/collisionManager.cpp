@@ -37,10 +37,10 @@ bool collisionManager::lineAabb(const line& theLine, const aabb& theAabb)
 	//#1 loop each corner and dot product the distance
 
 	Vector_2 extents = 0.5f * theAabb.getExtents().right();
-	Vector_2 dotExtentsNegX = Vector_2{ -theAabb.getExtents().x,theAabb.getExtents().y };
+	Vector_2 extentsNegX = Vector_2{ -theAabb.getExtents().x,theAabb.getExtents().y };
 
 	float dotExtents = extents.dot(theLine.getNormal());
-	float dotNegExtentsX = dotExtentsNegX.dot(theLine.getNormal());
+	float dotNegExtentsX = extentsNegX.dot(theLine.getNormal());
 
 	float radius = fmaxf(fabsf(dotExtents), fabsf(dotNegExtentsX));
 
